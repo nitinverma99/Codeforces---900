@@ -1,0 +1,6 @@
+n = int(input())
+k = input()
+zero = k.count('0')
+ones = k.count('1')
+minn = min(zero, ones)
+print(len(k) - 2*minn)
